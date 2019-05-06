@@ -47,6 +47,6 @@ INSERT INTO apex_usuario_grupo_acc_item (proyecto, usuario_grupo_acc, item_id, i
 	'soeva', --proyecto
 	'empresa', --usuario_grupo_acc
 	NULL, --item_id
-	'349000008'  --item
+	'349000011'  --item
 );
 --- FIN Grupo de desarrollo 349

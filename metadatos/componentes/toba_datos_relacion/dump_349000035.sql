@@ -1,5 +1,5 @@
 ------------------------------------------------------------
---[349000023]--  Nómina empleados - DR 
+--[349000035]--  Nómina empleados - datos 
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -9,7 +9,7 @@
 --- INICIO Grupo de desarrollo 349
 INSERT INTO apex_objeto (proyecto, objeto, anterior, identificador, reflexivo, clase_proyecto, clase, punto_montaje, subclase, subclase_archivo, objeto_categoria_proyecto, objeto_categoria, nombre, titulo, colapsable, descripcion, fuente_datos_proyecto, fuente_datos, solicitud_registrar, solicitud_obj_obs_tipo, solicitud_obj_observacion, parametro_a, parametro_b, parametro_c, parametro_d, parametro_e, parametro_f, usuario, creacion, posicion_botonera) VALUES (
 	'soeva', --proyecto
-	'349000023', --objeto
+	'349000035', --objeto
 	NULL, --anterior
 	NULL, --identificador
 	NULL, --reflexivo
@@ -20,7 +20,7 @@ INSERT INTO apex_objeto (proyecto, objeto, anterior, identificador, reflexivo, c
 	NULL, --subclase_archivo
 	NULL, --objeto_categoria_proyecto
 	NULL, --objeto_categoria
-	'Nómina empleados - DR', --nombre
+	'Nómina empleados - datos', --nombre
 	NULL, --titulo
 	NULL, --colapsable
 	NULL, --descripcion
@@ -36,7 +36,7 @@ INSERT INTO apex_objeto (proyecto, objeto, anterior, identificador, reflexivo, c
 	NULL, --parametro_e
 	NULL, --parametro_f
 	NULL, --usuario
-	'2019-03-26 13:46:53', --creacion
+	'2019-03-27 10:19:23', --creacion
 	NULL  --posicion_botonera
 );
 --- FIN Grupo de desarrollo 349
@@ -46,7 +46,7 @@ INSERT INTO apex_objeto (proyecto, objeto, anterior, identificador, reflexivo, c
 ------------------------------------------------------------
 INSERT INTO apex_objeto_datos_rel (proyecto, objeto, debug, clave, ap, punto_montaje, ap_clase, ap_archivo, sinc_susp_constraints, sinc_orden_automatico, sinc_lock_optimista) VALUES (
 	'soeva', --proyecto
-	'349000023', --objeto
+	'349000035', --objeto
 	'0', --debug
 	NULL, --clave
 	'2', --ap
@@ -65,12 +65,12 @@ INSERT INTO apex_objeto_datos_rel (proyecto, objeto, debug, clave, ap, punto_mon
 --- INICIO Grupo de desarrollo 349
 INSERT INTO apex_objeto_dependencias (proyecto, dep_id, objeto_consumidor, objeto_proveedor, identificador, parametros_a, parametros_b, parametros_c, inicializar, orden) VALUES (
 	'soeva', --proyecto
-	'349000018', --dep_id
-	'349000023', --objeto_consumidor
+	'349000031', --dep_id
+	'349000035', --objeto_consumidor
 	'349000008', --objeto_proveedor
-	'so_empresa', --identificador
-	'1', --parametros_a
-	'1', --parametros_b
+	'empresa', --identificador
+	'0', --parametros_a
+	'9999999', --parametros_b
 	NULL, --parametros_c
 	NULL, --inicializar
 	'1'  --orden

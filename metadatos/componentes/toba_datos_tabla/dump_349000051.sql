@@ -1,5 +1,5 @@
 ------------------------------------------------------------
---[349000016]--  so_empleados 
+--[349000051]--  so_empleados 
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -9,7 +9,7 @@
 --- INICIO Grupo de desarrollo 349
 INSERT INTO apex_objeto (proyecto, objeto, anterior, identificador, reflexivo, clase_proyecto, clase, punto_montaje, subclase, subclase_archivo, objeto_categoria_proyecto, objeto_categoria, nombre, titulo, colapsable, descripcion, fuente_datos_proyecto, fuente_datos, solicitud_registrar, solicitud_obj_obs_tipo, solicitud_obj_observacion, parametro_a, parametro_b, parametro_c, parametro_d, parametro_e, parametro_f, usuario, creacion, posicion_botonera) VALUES (
 	'soeva', --proyecto
-	'349000016', --objeto
+	'349000051', --objeto
 	NULL, --anterior
 	NULL, --identificador
 	NULL, --reflexivo
@@ -36,7 +36,7 @@ INSERT INTO apex_objeto (proyecto, objeto, anterior, identificador, reflexivo, c
 	NULL, --parametro_e
 	NULL, --parametro_f
 	NULL, --usuario
-	'2019-03-26 11:12:26', --creacion
+	'2019-04-03 15:49:54', --creacion
 	NULL  --posicion_botonera
 );
 --- FIN Grupo de desarrollo 349
@@ -46,7 +46,7 @@ INSERT INTO apex_objeto (proyecto, objeto, anterior, identificador, reflexivo, c
 ------------------------------------------------------------
 INSERT INTO apex_objeto_db_registros (objeto_proyecto, objeto, max_registros, min_registros, punto_montaje, ap, ap_clase, ap_archivo, tabla, tabla_ext, alias, modificar_claves, fuente_datos_proyecto, fuente_datos, permite_actualizacion_automatica, esquema, esquema_ext) VALUES (
 	'soeva', --objeto_proyecto
-	'349000016', --objeto
+	'349000051', --objeto
 	NULL, --max_registros
 	NULL, --min_registros
 	'349000001', --punto_montaje
@@ -56,12 +56,12 @@ INSERT INTO apex_objeto_db_registros (objeto_proyecto, objeto, max_registros, mi
 	'so_empleados', --tabla
 	NULL, --tabla_ext
 	NULL, --alias
-	'0', --modificar_claves
+	NULL, --modificar_claves
 	'soeva', --fuente_datos_proyecto
 	'soeva', --fuente_datos
 	'1', --permite_actualizacion_automatica
 	'public', --esquema
-	'public'  --esquema_ext
+	NULL  --esquema_ext
 );
 
 ------------------------------------------------------------
@@ -71,8 +71,8 @@ INSERT INTO apex_objeto_db_registros (objeto_proyecto, objeto, max_registros, mi
 --- INICIO Grupo de desarrollo 349
 INSERT INTO apex_objeto_db_registros_col (objeto_proyecto, objeto, col_id, columna, tipo, pk, secuencia, largo, no_nulo, no_nulo_db, externa, tabla) VALUES (
 	'soeva', --objeto_proyecto
-	'349000016', --objeto
-	'349000019', --col_id
+	'349000051', --objeto
+	'349000066', --col_id
 	'id_empleado', --columna
 	'E', --tipo
 	'1', --pk
@@ -80,13 +80,13 @@ INSERT INTO apex_objeto_db_registros_col (objeto_proyecto, objeto, col_id, colum
 	NULL, --largo
 	NULL, --no_nulo
 	'1', --no_nulo_db
-	'0', --externa
+	NULL, --externa
 	NULL  --tabla
 );
 INSERT INTO apex_objeto_db_registros_col (objeto_proyecto, objeto, col_id, columna, tipo, pk, secuencia, largo, no_nulo, no_nulo_db, externa, tabla) VALUES (
 	'soeva', --objeto_proyecto
-	'349000016', --objeto
-	'349000020', --col_id
+	'349000051', --objeto
+	'349000067', --col_id
 	'nombre', --columna
 	'C', --tipo
 	'0', --pk
@@ -94,13 +94,13 @@ INSERT INTO apex_objeto_db_registros_col (objeto_proyecto, objeto, col_id, colum
 	'100', --largo
 	NULL, --no_nulo
 	'0', --no_nulo_db
-	'0', --externa
+	NULL, --externa
 	NULL  --tabla
 );
 INSERT INTO apex_objeto_db_registros_col (objeto_proyecto, objeto, col_id, columna, tipo, pk, secuencia, largo, no_nulo, no_nulo_db, externa, tabla) VALUES (
 	'soeva', --objeto_proyecto
-	'349000016', --objeto
-	'349000021', --col_id
+	'349000051', --objeto
+	'349000068', --col_id
 	'apellido', --columna
 	'C', --tipo
 	'0', --pk
@@ -108,13 +108,13 @@ INSERT INTO apex_objeto_db_registros_col (objeto_proyecto, objeto, col_id, colum
 	'100', --largo
 	NULL, --no_nulo
 	'0', --no_nulo_db
-	'0', --externa
+	NULL, --externa
 	NULL  --tabla
 );
 INSERT INTO apex_objeto_db_registros_col (objeto_proyecto, objeto, col_id, columna, tipo, pk, secuencia, largo, no_nulo, no_nulo_db, externa, tabla) VALUES (
 	'soeva', --objeto_proyecto
-	'349000016', --objeto
-	'349000022', --col_id
+	'349000051', --objeto
+	'349000069', --col_id
 	'cuit', --columna
 	'E', --tipo
 	'0', --pk
@@ -122,13 +122,13 @@ INSERT INTO apex_objeto_db_registros_col (objeto_proyecto, objeto, col_id, colum
 	NULL, --largo
 	NULL, --no_nulo
 	'0', --no_nulo_db
-	'0', --externa
+	NULL, --externa
 	NULL  --tabla
 );
 INSERT INTO apex_objeto_db_registros_col (objeto_proyecto, objeto, col_id, columna, tipo, pk, secuencia, largo, no_nulo, no_nulo_db, externa, tabla) VALUES (
 	'soeva', --objeto_proyecto
-	'349000016', --objeto
-	'349000023', --col_id
+	'349000051', --objeto
+	'349000070', --col_id
 	'id_empresa', --columna
 	'E', --tipo
 	'0', --pk
@@ -136,105 +136,119 @@ INSERT INTO apex_objeto_db_registros_col (objeto_proyecto, objeto, col_id, colum
 	NULL, --largo
 	NULL, --no_nulo
 	'0', --no_nulo_db
-	'0', --externa
+	NULL, --externa
 	NULL  --tabla
 );
 INSERT INTO apex_objeto_db_registros_col (objeto_proyecto, objeto, col_id, columna, tipo, pk, secuencia, largo, no_nulo, no_nulo_db, externa, tabla) VALUES (
 	'soeva', --objeto_proyecto
-	'349000016', --objeto
-	'349000024', --col_id
-	'aporta_sindicato', --columna
+	'349000051', --objeto
+	'349000071', --col_id
+	'aporta', --columna
 	'E', --tipo
 	'0', --pk
-	'', --secuencia
+	NULL, --secuencia
 	NULL, --largo
 	NULL, --no_nulo
 	'0', --no_nulo_db
-	'0', --externa
-	'so_empleados'  --tabla
+	NULL, --externa
+	NULL  --tabla
 );
 INSERT INTO apex_objeto_db_registros_col (objeto_proyecto, objeto, col_id, columna, tipo, pk, secuencia, largo, no_nulo, no_nulo_db, externa, tabla) VALUES (
 	'soeva', --objeto_proyecto
-	'349000016', --objeto
-	'349000025', --col_id
+	'349000051', --objeto
+	'349000072', --col_id
 	'neto', --columna
 	'N', --tipo
 	'0', --pk
-	'', --secuencia
+	NULL, --secuencia
 	NULL, --largo
 	NULL, --no_nulo
 	'0', --no_nulo_db
-	'0', --externa
-	'so_empleados'  --tabla
+	NULL, --externa
+	NULL  --tabla
 );
 INSERT INTO apex_objeto_db_registros_col (objeto_proyecto, objeto, col_id, columna, tipo, pk, secuencia, largo, no_nulo, no_nulo_db, externa, tabla) VALUES (
 	'soeva', --objeto_proyecto
-	'349000016', --objeto
-	'349000026', --col_id
-	'aporte_1_5', --columna
+	'349000051', --objeto
+	'349000073', --col_id
+	'neto_1_5', --columna
 	'N', --tipo
 	'0', --pk
-	'', --secuencia
+	NULL, --secuencia
 	NULL, --largo
 	NULL, --no_nulo
 	'0', --no_nulo_db
-	'0', --externa
-	'so_empleados'  --tabla
+	NULL, --externa
+	NULL  --tabla
 );
 INSERT INTO apex_objeto_db_registros_col (objeto_proyecto, objeto, col_id, columna, tipo, pk, secuencia, largo, no_nulo, no_nulo_db, externa, tabla) VALUES (
 	'soeva', --objeto_proyecto
-	'349000016', --objeto
-	'349000027', --col_id
+	'349000051', --objeto
+	'349000074', --col_id
 	'bruto', --columna
 	'N', --tipo
 	'0', --pk
-	'', --secuencia
+	NULL, --secuencia
 	NULL, --largo
 	NULL, --no_nulo
 	'0', --no_nulo_db
-	'0', --externa
-	'so_empleados'  --tabla
+	NULL, --externa
+	NULL  --tabla
 );
 INSERT INTO apex_objeto_db_registros_col (objeto_proyecto, objeto, col_id, columna, tipo, pk, secuencia, largo, no_nulo, no_nulo_db, externa, tabla) VALUES (
 	'soeva', --objeto_proyecto
-	'349000016', --objeto
-	'349000028', --col_id
-	'aporte_2', --columna
+	'349000051', --objeto
+	'349000075', --col_id
+	'bruto_2', --columna
 	'N', --tipo
 	'0', --pk
-	'', --secuencia
+	NULL, --secuencia
 	NULL, --largo
 	NULL, --no_nulo
 	'0', --no_nulo_db
-	'0', --externa
-	'so_empleados'  --tabla
+	NULL, --externa
+	NULL  --tabla
 );
 INSERT INTO apex_objeto_db_registros_col (objeto_proyecto, objeto, col_id, columna, tipo, pk, secuencia, largo, no_nulo, no_nulo_db, externa, tabla) VALUES (
 	'soeva', --objeto_proyecto
-	'349000016', --objeto
-	'349000029', --col_id
+	'349000051', --objeto
+	'349000076', --col_id
 	'fecha', --columna
 	'F', --tipo
 	'0', --pk
-	'', --secuencia
+	NULL, --secuencia
 	NULL, --largo
 	NULL, --no_nulo
 	'0', --no_nulo_db
-	'0', --externa
-	'so_empleados'  --tabla
+	NULL, --externa
+	NULL  --tabla
 );
 INSERT INTO apex_objeto_db_registros_col (objeto_proyecto, objeto, col_id, columna, tipo, pk, secuencia, largo, no_nulo, no_nulo_db, externa, tabla) VALUES (
 	'soeva', --objeto_proyecto
-	'349000016', --objeto
-	'349000030', --col_id
+	'349000051', --objeto
+	'349000077', --col_id
 	'estado', --columna
 	'E', --tipo
 	'0', --pk
-	'', --secuencia
+	NULL, --secuencia
 	NULL, --largo
 	NULL, --no_nulo
 	'0', --no_nulo_db
-	'0', --externa
-	'so_empleados'  --tabla
+	NULL, --externa
+	NULL  --tabla
+);
+INSERT INTO apex_objeto_db_registros_col (objeto_proyecto, objeto, col_id, columna, tipo, pk, secuencia, largo, no_nulo, no_nulo_db, externa, tabla) VALUES (
+	'soeva', --objeto_proyecto
+	'349000051', --objeto
+	'349000078', --col_id
+	'id_categoria', --columna
+	'E', --tipo
+	'0', --pk
+	NULL, --secuencia
+	NULL, --largo
+	NULL, --no_nulo
+	'0', --no_nulo_db
+	NULL, --externa
+	NULL  --tabla
 );
 --- FIN Grupo de desarrollo 349

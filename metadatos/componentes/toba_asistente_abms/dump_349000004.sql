@@ -1,5 +1,5 @@
 ------------------------------------------------------------
---[349000003]--  Nómina empleados 
+--[349000004]--  Nómina empleados 
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -9,10 +9,10 @@
 --- INICIO Grupo de desarrollo 349
 INSERT INTO apex_molde_operacion (proyecto, molde, operacion_tipo, nombre, item, carpeta_archivos, prefijo_clases, fuente, punto_montaje) VALUES (
 	'soeva', --proyecto
-	'349000003', --molde
+	'349000004', --molde
 	'10', --operacion_tipo
 	'Nómina empleados', --nombre
-	'349000008', --item
+	'349000011', --item
 	'gestion_empresas/nomina_empleados', --carpeta_archivos
 	'_nomina_empleados', --prefijo_clases
 	'soeva', --fuente
@@ -25,7 +25,7 @@ INSERT INTO apex_molde_operacion (proyecto, molde, operacion_tipo, nombre, item,
 ------------------------------------------------------------
 INSERT INTO apex_molde_operacion_abms (proyecto, molde, tabla, gen_usa_filtro, gen_separar_pantallas, filtro_comprobar_parametros, cuadro_eof, cuadro_eliminar_filas, cuadro_id, cuadro_forzar_filtro, cuadro_carga_origen, cuadro_carga_sql, cuadro_carga_php_include, cuadro_carga_php_clase, cuadro_carga_php_metodo, datos_tabla_validacion, apdb_pre, punto_montaje) VALUES (
 	'soeva', --proyecto
-	'349000003', --molde
+	'349000004', --molde
 	'so_empresa', --tabla
 	'1', --gen_usa_filtro
 	'1', --gen_separar_pantallas
@@ -64,8 +64,8 @@ ORDER BY razon_social', --cuadro_carga_sql
 --- INICIO Grupo de desarrollo 349
 INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, columna, asistente_tipo_dato, etiqueta, en_cuadro, en_form, en_filtro, filtro_operador, cuadro_estilo, cuadro_formato, dt_tipo_dato, dt_largo, dt_secuencia, dt_pk, elemento_formulario, ef_obligatorio, ef_desactivar_modificacion, ef_procesar_javascript, ef_carga_origen, ef_carga_sql, ef_carga_php_include, ef_carga_php_clase, ef_carga_php_metodo, ef_carga_tabla, ef_carga_col_clave, ef_carga_col_desc, punto_montaje) VALUES (
 	'soeva', --proyecto
-	'349000003', --molde
-	'349000020', --fila
+	'349000004', --molde
+	'349000030', --fila
 	'1', --orden
 	'id_empresa', --columna
 	'1000003', --asistente_tipo_dato
@@ -96,12 +96,12 @@ INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, column
 );
 INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, columna, asistente_tipo_dato, etiqueta, en_cuadro, en_form, en_filtro, filtro_operador, cuadro_estilo, cuadro_formato, dt_tipo_dato, dt_largo, dt_secuencia, dt_pk, elemento_formulario, ef_obligatorio, ef_desactivar_modificacion, ef_procesar_javascript, ef_carga_origen, ef_carga_sql, ef_carga_php_include, ef_carga_php_clase, ef_carga_php_metodo, ef_carga_tabla, ef_carga_col_clave, ef_carga_col_desc, punto_montaje) VALUES (
 	'soeva', --proyecto
-	'349000003', --molde
-	'349000021', --fila
-	'2', --orden
+	'349000004', --molde
+	'349000031', --fila
+	'3', --orden
 	'razon_social', --columna
 	'1000001', --asistente_tipo_dato
-	'Razón Social', --etiqueta
+	'Razon Social', --etiqueta
 	'1', --en_cuadro
 	'1', --en_form
 	'1', --en_filtro
@@ -128,9 +128,9 @@ INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, column
 );
 INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, columna, asistente_tipo_dato, etiqueta, en_cuadro, en_form, en_filtro, filtro_operador, cuadro_estilo, cuadro_formato, dt_tipo_dato, dt_largo, dt_secuencia, dt_pk, elemento_formulario, ef_obligatorio, ef_desactivar_modificacion, ef_procesar_javascript, ef_carga_origen, ef_carga_sql, ef_carga_php_include, ef_carga_php_clase, ef_carga_php_metodo, ef_carga_tabla, ef_carga_col_clave, ef_carga_col_desc, punto_montaje) VALUES (
 	'soeva', --proyecto
-	'349000003', --molde
-	'349000022', --fila
-	'3', --orden
+	'349000004', --molde
+	'349000032', --fila
+	'2', --orden
 	'cuit', --columna
 	'1000003', --asistente_tipo_dato
 	'CUIT', --etiqueta
@@ -145,7 +145,7 @@ INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, column
 	'', --dt_secuencia
 	'0', --dt_pk
 	'ef_editable_numero', --elemento_formulario
-	'0', --ef_obligatorio
+	'1', --ef_obligatorio
 	NULL, --ef_desactivar_modificacion
 	NULL, --ef_procesar_javascript
 	NULL, --ef_carga_origen
@@ -160,14 +160,14 @@ INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, column
 );
 INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, columna, asistente_tipo_dato, etiqueta, en_cuadro, en_form, en_filtro, filtro_operador, cuadro_estilo, cuadro_formato, dt_tipo_dato, dt_largo, dt_secuencia, dt_pk, elemento_formulario, ef_obligatorio, ef_desactivar_modificacion, ef_procesar_javascript, ef_carga_origen, ef_carga_sql, ef_carga_php_include, ef_carga_php_clase, ef_carga_php_metodo, ef_carga_tabla, ef_carga_col_clave, ef_carga_col_desc, punto_montaje) VALUES (
 	'soeva', --proyecto
-	'349000003', --molde
-	'349000023', --fila
+	'349000004', --molde
+	'349000033', --fila
 	'4', --orden
 	'cod_postal', --columna
 	'1000003', --asistente_tipo_dato
 	'Cod Postal', --etiqueta
-	'0', --en_cuadro
-	'0', --en_form
+	'1', --en_cuadro
+	'1', --en_form
 	'0', --en_filtro
 	'=', --filtro_operador
 	'0', --cuadro_estilo
@@ -192,14 +192,14 @@ INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, column
 );
 INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, columna, asistente_tipo_dato, etiqueta, en_cuadro, en_form, en_filtro, filtro_operador, cuadro_estilo, cuadro_formato, dt_tipo_dato, dt_largo, dt_secuencia, dt_pk, elemento_formulario, ef_obligatorio, ef_desactivar_modificacion, ef_procesar_javascript, ef_carga_origen, ef_carga_sql, ef_carga_php_include, ef_carga_php_clase, ef_carga_php_metodo, ef_carga_tabla, ef_carga_col_clave, ef_carga_col_desc, punto_montaje) VALUES (
 	'soeva', --proyecto
-	'349000003', --molde
-	'349000024', --fila
+	'349000004', --molde
+	'349000034', --fila
 	'5', --orden
 	'provincia', --columna
 	'1000001', --asistente_tipo_dato
 	'Provincia', --etiqueta
-	'0', --en_cuadro
-	'0', --en_form
+	'1', --en_cuadro
+	'1', --en_form
 	'0', --en_filtro
 	'ILIKE', --filtro_operador
 	'4', --cuadro_estilo
@@ -224,14 +224,14 @@ INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, column
 );
 INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, columna, asistente_tipo_dato, etiqueta, en_cuadro, en_form, en_filtro, filtro_operador, cuadro_estilo, cuadro_formato, dt_tipo_dato, dt_largo, dt_secuencia, dt_pk, elemento_formulario, ef_obligatorio, ef_desactivar_modificacion, ef_procesar_javascript, ef_carga_origen, ef_carga_sql, ef_carga_php_include, ef_carga_php_clase, ef_carga_php_metodo, ef_carga_tabla, ef_carga_col_clave, ef_carga_col_desc, punto_montaje) VALUES (
 	'soeva', --proyecto
-	'349000003', --molde
-	'349000025', --fila
+	'349000004', --molde
+	'349000035', --fila
 	'6', --orden
 	'direccion', --columna
 	'1000001', --asistente_tipo_dato
 	'Direccion', --etiqueta
-	'0', --en_cuadro
-	'0', --en_form
+	'1', --en_cuadro
+	'1', --en_form
 	'0', --en_filtro
 	'ILIKE', --filtro_operador
 	'4', --cuadro_estilo
@@ -256,14 +256,14 @@ INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, column
 );
 INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, columna, asistente_tipo_dato, etiqueta, en_cuadro, en_form, en_filtro, filtro_operador, cuadro_estilo, cuadro_formato, dt_tipo_dato, dt_largo, dt_secuencia, dt_pk, elemento_formulario, ef_obligatorio, ef_desactivar_modificacion, ef_procesar_javascript, ef_carga_origen, ef_carga_sql, ef_carga_php_include, ef_carga_php_clase, ef_carga_php_metodo, ef_carga_tabla, ef_carga_col_clave, ef_carga_col_desc, punto_montaje) VALUES (
 	'soeva', --proyecto
-	'349000003', --molde
-	'349000026', --fila
+	'349000004', --molde
+	'349000036', --fila
 	'7', --orden
 	'id_provincia_afip', --columna
 	'1000003', --asistente_tipo_dato
 	'Id Provincia Afip', --etiqueta
-	'0', --en_cuadro
-	'0', --en_form
+	'1', --en_cuadro
+	'1', --en_form
 	'0', --en_filtro
 	'=', --filtro_operador
 	'0', --cuadro_estilo
@@ -288,14 +288,14 @@ INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, column
 );
 INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, columna, asistente_tipo_dato, etiqueta, en_cuadro, en_form, en_filtro, filtro_operador, cuadro_estilo, cuadro_formato, dt_tipo_dato, dt_largo, dt_secuencia, dt_pk, elemento_formulario, ef_obligatorio, ef_desactivar_modificacion, ef_procesar_javascript, ef_carga_origen, ef_carga_sql, ef_carga_php_include, ef_carga_php_clase, ef_carga_php_metodo, ef_carga_tabla, ef_carga_col_clave, ef_carga_col_desc, punto_montaje) VALUES (
 	'soeva', --proyecto
-	'349000003', --molde
-	'349000027', --fila
+	'349000004', --molde
+	'349000037', --fila
 	'8', --orden
 	'localidad', --columna
 	'1000001', --asistente_tipo_dato
 	'Localidad', --etiqueta
-	'0', --en_cuadro
-	'0', --en_form
+	'1', --en_cuadro
+	'1', --en_form
 	'0', --en_filtro
 	'ILIKE', --filtro_operador
 	'4', --cuadro_estilo
@@ -320,14 +320,14 @@ INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, column
 );
 INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, columna, asistente_tipo_dato, etiqueta, en_cuadro, en_form, en_filtro, filtro_operador, cuadro_estilo, cuadro_formato, dt_tipo_dato, dt_largo, dt_secuencia, dt_pk, elemento_formulario, ef_obligatorio, ef_desactivar_modificacion, ef_procesar_javascript, ef_carga_origen, ef_carga_sql, ef_carga_php_include, ef_carga_php_clase, ef_carga_php_metodo, ef_carga_tabla, ef_carga_col_clave, ef_carga_col_desc, punto_montaje) VALUES (
 	'soeva', --proyecto
-	'349000003', --molde
-	'349000028', --fila
+	'349000004', --molde
+	'349000038', --fila
 	'9', --orden
 	'email', --columna
 	'1000001', --asistente_tipo_dato
 	'Email', --etiqueta
-	'0', --en_cuadro
-	'0', --en_form
+	'1', --en_cuadro
+	'1', --en_form
 	'0', --en_filtro
 	'ILIKE', --filtro_operador
 	'4', --cuadro_estilo
@@ -352,14 +352,14 @@ INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, column
 );
 INSERT INTO apex_molde_operacion_abms_fila (proyecto, molde, fila, orden, columna, asistente_tipo_dato, etiqueta, en_cuadro, en_form, en_filtro, filtro_operador, cuadro_estilo, cuadro_formato, dt_tipo_dato, dt_largo, dt_secuencia, dt_pk, elemento_formulario, ef_obligatorio, ef_desactivar_modificacion, ef_procesar_javascript, ef_carga_origen, ef_carga_sql, ef_carga_php_include, ef_carga_php_clase, ef_carga_php_metodo, ef_carga_tabla, ef_carga_col_clave, ef_carga_col_desc, punto_montaje) VALUES (
 	'soeva', --proyecto
-	'349000003', --molde
-	'349000029', --fila
+	'349000004', --molde
+	'349000039', --fila
 	'10', --orden
 	'telefono', --columna
 	'1000001', --asistente_tipo_dato
 	'Telefono', --etiqueta
-	'0', --en_cuadro
-	'0', --en_form
+	'1', --en_cuadro
+	'1', --en_form
 	'0', --en_filtro
 	'ILIKE', --filtro_operador
 	'4', --cuadro_estilo
